@@ -3,9 +3,10 @@ Use Practica
 
 --Agregar una tabla
 Create Table Clients(
-	Id Int Primary Key, 
+	Id Int Primary Key IDENTITY(1,1), 
 	Name varchar(50) Not Null
 );
+--Identity se utiliza para valores autogenerados, con un valor de inicio y otro de incremento
 
 --Insertar datos en una tabla
 Insert Into Clients Values(1,'Josue','Reyes');
@@ -20,3 +21,6 @@ Alter table Clients
 --Eliminar Columnas 
 Alter Table Clients
 	Drop Column LastName
+
+--Eliminar Tabla
+Drop Table Clients
