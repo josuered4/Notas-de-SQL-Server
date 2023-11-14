@@ -37,3 +37,25 @@ Create Table Orders(
 		Foreign Key(ClientsId) References Clients(Id) ON DELETE CASCADE
 	);
 
+
+	INSERT INTO Orders (ClientsId) VALUES (3);
+INSERT INTO Orders (ClientsId) VALUES (4);
+INSERT INTO Orders (ClientsId) VALUES (6);
+INSERT INTO Orders (ClientsId) VALUES (7);
+INSERT INTO Orders (ClientsId) VALUES (8);
+INSERT INTO Orders (ClientsId) VALUES (9);
+INSERT INTO Orders (ClientsId) VALUES (10);
+INSERT INTO Orders (ClientsId) VALUES (11);
+INSERT INTO Orders (ClientsId) VALUES (12);
+INSERT INTO Orders (ClientsId) VALUES (13);
+INSERT INTO Orders (ClientsId) VALUES (4);
+INSERT INTO Orders (ClientsId) VALUES (6);
+INSERT INTO Orders (ClientsId) VALUES (8);
+INSERT INTO Orders (ClientsId) VALUES (10);
+INSERT INTO Orders (ClientsId) VALUES (12);
+INSERT INTO Orders (ClientsId) VALUES (13);
+INSERT INTO Orders (ClientsId) VALUES (3);
+INSERT INTO Orders (ClientsId) VALUES (7);
+INSERT INTO Orders (ClientsId) VALUES (11);
+INSERT INTO Orders (ClientsId) VALUES (9);
+
